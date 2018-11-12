@@ -1,0 +1,41 @@
+esc :wq
+
+    box-sizing: border-box;   
+    font-size: 25px;
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+#menu {
+    width: 25%;
+    float: left;
+    background-color: lightgrey;
+    position: fixed;
+}
+
+main {
+    width: 75%;
+    float: right;
+    padding-left: 1%;
+}
+
+@media (max-width: 767px) { 
+    main {
+        width: 100%;
+    }
+
+    #menu {
+        width: 100%;
+        background-color: lightgrey;
+        position: fixed;
+    }
+
+    li {
+        display: inline-block;
+    }
+}
+
+
